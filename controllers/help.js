@@ -11,7 +11,7 @@ class HelpController {
         path,
         description,
         group = defaultGroupName
-    }) {
+    } = {}) {
         if (!path) throw new Error('Path is empty');
         if (!description) throw new Error('Description is undefined');
 
