@@ -19,7 +19,7 @@ This application is designed as a workpiece for the development of a bot for tel
     3. **index.js** - used for registering route files
 * **test** directory for your tests
 
-Your
+You can create bot by contacting @BotFather.
 
 ## Install
 
