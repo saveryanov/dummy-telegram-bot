@@ -1,6 +1,7 @@
 var routesFiles = [
     require('./main'),
-    require('./example')
+    require('./example'),
+    require('./admin')
 ];
 
 module.exports.create = function(bot) {

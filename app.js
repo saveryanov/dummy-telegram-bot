@@ -1,4 +1,5 @@
 var routes = require('./routes'),
+    controllers = require('./controllers'),
     config = require('./config'),
     fs = require('fs'),
     TelegramBot = require('node-telegram-bot-api');
@@ -12,3 +13,5 @@ const bot = new TelegramBot(config.token, {polling: true});
 
 // Create bot routes
 routes.create(bot);
+
+bot.sendMessage(config.adminChatId, `Bot started.`);
