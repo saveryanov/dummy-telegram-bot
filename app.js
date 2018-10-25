@@ -1,5 +1,4 @@
 var routes = require('./routes'),
-    controllers = require('./controllers'),
     config = require('./config'),
     fs = require('fs'),
     TelegramBot = require('node-telegram-bot-api');

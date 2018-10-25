@@ -1,5 +1,4 @@
-var config = require('../config'),
-    controllers = require('../controllers');
+var config = require('../config');
 
 module.exports.create = function (bot) {
 
